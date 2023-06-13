@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Art Weddings</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:ital,wght@0,300;1,100&family=Playfair&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-left.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="header">
+    <div class="nav">
+        <ul>
+            <li id="home" ><a >HOME</a></li>
+            <li id="weddings"><a href="./weddings.html">PORTFOLIO</a></li>
+            <li id="about" onclick="aboutScroll()"><a >ABOUT</a></li>
+            <li id="contact" onclick="footerScroll()"><a >CONTACT</a></li>
+        </ul>
+    </div>
+    <div class="responsive-nav">
+        <ul>
+            <li id="home" ><a href="#">HOME</a></li>
+            <li id="weddings"><a href="./weddings.html">PORTFOLIO</a></li>
+            <li id="about"><a onclick="aboutScroll()" >ABOUT</a></li>
+            <li id="contact" onclick="footerScroll()"><a >CONTACT</a></li>
+        </ul>
+    </div>
+    <div class="menu-button"><li><a href="#" id="menu-button">MENU</a></li></div>
+<div class="art-weddings-info">
+    <h1  id="header-title">
+        Art Weddings
+      </h1>
+      <p id="header-p">Capturing your dreams.</p>
+      <button  id="btn" onclick="portfolio()">OUR PORTFOLIO</button>
+</div>
+</div>
+<h2>BEST MOMENTS WE HAVE CAPTURED</h2>
+    <div class="slider-wrapper">
+    <button id="left-btn"><i class="arrow"></i></button>
+    <div class="slider-images">
+        <img class="w3-animate-fading" name="slide" src="./img/IMG_1435-2.jpg" alt="">
+        <img src="./img/IMG_6747.jpg">
+        <img src="./img/IMG_6869.jpg">
+        
+    </div>
+    <button id="right-btn"><i class="arrow"></i></button>
+</div>
+<h2 >ABOUT US</h2>
+<div class="about-us" id="aboutus">
+<p id="who-p" class="boxes">We are young team made of proffesional photogrphers.Capture the essence of your special day with the lens of our artistry. We are more than just photographers; we are storytellers, weaving together moments of love, joy, and laughter into a timeless tapestry. As wedding photographers, our passion lies in freezing fleeting emotions and transforming them into cherished memories that will be treasured for a lifetime.</p>
+<p id="aboutus-p" class="boxes"> With a passion for storytelling and a keen eye for detail, we strive to create stunning images that reflect the essence of your love story.
+     Art Weddings understands that your wedding day is one of the most important milestones in your life. It is a day filled with love, joy, and unforgettable moments that deserve to be cherished forever. Our goal is to provide you with a personalized and exceptional photography experience .
+</p>
+</div>
+<footer>
+    <div class="upper">
+       <h2>Art Weddings</h2>
+
+       <p id="footer-text">
+     Capturing moments of love, joy, and forever memories. <br> Your wedding day, beautifully preserved through our lens.
+     <br><br>
+     © 2023 Salkovic Dev. All rights reserved. <br>
+     Website by Salkovic Dado.
+    </p>
+
+    </div>
+    <div class="contact">
+        <h2 id="footer-h2">Contact</h2>
+        <div class="popup"><span class="popuptext">Copied to clipboard</span></div>
+        <div class="imgs">
+        <img width="50" height="50" onclick="instaOpen()" src="https://img.icons8.com/ios/50/FFFFFF/instagram-new--v1.png" alt="instagram-new--v1"/>
+        <img width="50" height="50" onclick="fbOpen()" src="https://img.icons8.com/ios/50/FFFFFF/facebook--v1.png" alt="facebook--v1"/>
+        <img width="50" height="50" onclick="numberOpen()" src="https://img.icons8.com/ios/50/FFFFFF/whatsapp--v1.png" alt="whatsapp--v1"/>
+    </div>
+
+
+    </div>
+</footer>
+
+<script src="script.js"></script>
+<script src="weddings_script.js"></script>
+</body>
+</html>
